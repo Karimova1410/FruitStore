@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta name="description" content="Website of the best fruit store" />
+		<meta name="author" content="Karimova Roza" />
+		<title>Fruits-store</title>
+
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Poppins:wght@100;300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-top">
+				<span
+					><img class="logo fas faр-book" src="/img2/Logo.png" alt=""
+				/></span>
+
+				<form action="" class="header-top__search-form">
+					<input
+						type="search"
+						name=""
+						placeholder="Search here..."
+						id="search-box"
+					/>
+					<label for="search-box" class="fas fa-search"></label>
+				</form>
+
+				<div class="header-top__icons">
+					<div id="search-btn" class="fas fa-search"></div>
+					<a href="pages/cart.html" class="fas fa-shopping-cart"></a>
+					<a id="login-btn" class="fas fa-user"></a>
+				</div>
+			</div>
+
+			<div class="header-bottom">
+				<nav class="header-bottom__navbar">
+					<a href="#home">home</a>
+					<a href="#featured">featured</a>
+					<a href="#aboutUs">about us</a>
+					<a href="#reviews">reviews</a>
+					<a href="#blogs">blogs</a>
+				</nav>
+			</div>
+		</header>
+
+		<nav class="bottom-navbar">
+			<a href="#home" class="fas fa-home"></a>
+			<a href="#featured" class="fas fa-list"></a>
+			<a href="#aboutUs" class="fas fa-tags"></a>
+			<a href="#reviews" class="fas fa-comment"></a>
+			<a href="#blogs" class="fas fa-blog"></a>
+		</nav>
+
+		<div class="login-form-container">
+			<div id="close-login-btn" class="fas fa-times"></div>
+
+			<form action="">
+				<h3>sign in</h3>
+				<span>username</span>
+				<label>
+					<input type="email" class="box" placeholder="Enter your email" />
+				</label>
+				<span>password</span>
+				<label>
+					<input
+						type="password"
+						class="box"
+						placeholder="Enter your password"
+					/>
+				</label>
+				<div class="checkbox">
+					<input type="checkbox" name="" id="remember-me" />
+					<label for="remember-me">remember me</label>
+				</div>
+				<input type="submit" value="sign in" class="btn" />
+				<p>forget password ? <a href="#">click here</a></p>
+				<p>don't have an account ? <a href="#">create one</a></p>
+			</form>
+		</div>
+
+		<section id="home" class="home">
+			<div class="row">
+				<div class="content">
+					<h3>100% Natural Food</h3>
+					<p>
+						Choose the healthiest <br />
+						products from <br />
+						Kyrgyzstan.
+					</p>
+					<a href="#" class="btn"> Explore Now</a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="box-container cards">
+				<div class="reklama-cards">
+					<h3>Natural!!</h3>
+					<h1>
+						Get Garden <br />
+						Fresh Fruits
+					</h1>
+				</div>
+				<div class="reklama-cards1">
+					<h3>Offer!!</h3>
+					<h1>
+						Get 10% off <br />
+						on Vegetables
+					</h1>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="icons-container">
+				<div class="icons">
+					<i class="fas fa-shipping-fast"></i>
+					<div class="content">
+						<h3>free shipping</h3>
+						<p>order over 100$</p>
+					</div>
+				</div>
+				<div class="icons">
+					<i class="fas fa-lock"></i>
+					<div class="content">
+						<h3>secure payment</h3>
+						<p>100 secure payment</p>
+					</div>
+				</div>
+				<div class="icons">
+					<i class="fas fa-redo-alt"></i>
+					<div class="content">
+						<h3>easy returns</h3>
+						<p>10 days returns</p>
+					</div>
+				</div>
+				<div class="icons">
+					<i class="fas fa-headset"></i>
+					<div class="content">
+						<h3>24/7 support</h3>
+						<p>call us anytime</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="newsletter">
+			<form action="">
+				<h3>subscribe for latest updates</h3>
+				<label for=""></label
+				><input
+					type="email"
+					name=""
+					placeholder="Enter your email"
+					id=""
+					class="box"
+				/>
+				<input type="submit" value="subscribe" class="btn" />
+			</form>
+		</section>
+		<section id="featured" class="featured">
+			<h2 class="heading"><span>featured products</span></h2>
+
+			<div class="swiper featured-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide box">
+						<div class="icons">
+							<a href="#" class="fas fa-search"></a>
+							<a href="#" class="fas fa-heart"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<div class="image">
+							<img src="/img2/tomatoe.png" alt="" />
+						</div>
+						<div class="content">
+							<h3>Chui Tomato</h3>
+							<div class="price">$5.99 <span>$10.99</span></div>
+							<a href="#" class="btn">add to cart</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="icons">
+							<a href="#" class="fas fa-search"></a>
+							<a href="#" class="fas fa-heart"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<div class="image">
+							<img src="img2/fruite-item-6.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Issyk-Kul apples</h3>
+							<div class="price">$7.99 <span>$8.99</span></div>
+							<a href="#" class="btn">add to cart</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="icons">
+							<a href="#" class="fas fa-search"></a>
+							<a href="#" class="fas fa-heart"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<div class="image">
+							<img src="img2/fruite-item-1.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Jalal-Abad orange</h3>
+							<div class="price">$17.99 <span>$30.99</span></div>
+							<a href="#" class="btn">add to cart</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="icons">
+							<a href="#" class="fas fa-search"></a>
+							<a href="#" class="fas fa-heart"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<div class="image">
+							<img src="img2/fruite-item-4.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Batken peach</h3>
+							<div class="price">$15.99 <span>$20.99</span></div>
+							<a href="#" class="btn">add to cart</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="icons">
+							<a href="#" class="fas fa-search"></a>
+							<a href="#" class="fas fa-heart"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<div class="image">
+							<img src="img2/fruite-item-3.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Talas banane</h3>
+							<div class="price">$7.99 <span>$20.99</span></div>
+							<a href="#" class="btn">add to cart</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="icons">
+							<a href="#" class="fas fa-search"></a>
+							<a href="#" class="fas fa-heart"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<div class="image">
+							<img src="img2/fruite-item-5.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Naryn grapes</h3>
+							<div class="price">$5.99 <span>$20.99</span></div>
+							<a href="#" class="btn">add to cart</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+		</section>
+		<section id="aboutUs" class="deal">
+			<div class="content">
+				<h3>About Us</h3>
+				<h2>We do Creative Things for Success</h2>
+				<p>
+					Welcome to FruitsStore from Kyrgyzstan! We pride ourselves on offering
+					the freshest, most flavorful fruits sourced from local farmers and
+					trusted global growers. Committed to quality and sustainability, we
+					deliver nature's best right to your doorstep.
+				</p>
+				<a href="#" class="btn">explore now</a>
+			</div>
+
+			<div class="image">
+				<img src="img2/photo.png" alt="" />
+			</div>
+		</section>
+		<section id="reviews" class="reviews">
+			<h2 class="heading"><span>client's reviews</span></h2>
+
+			<div class="swiper reviews-slider">
+				<div class="swiper-slide box">
+					<img src="img2/japarov.jpg" alt="" />
+					<h3>Sadyr Japarov</h3>
+					<p>
+						As the President of Kyrgyzstan, I am glad that we have such a site.
+						We must develop our production 👍🏻🇰🇬
+					</p>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+				</div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide box">
+						<img src="img2/putin.jpeg" alt="" />
+						<h3>Vladimir Putin</h3>
+						<p>
+							As the President of Russia, I really envy you, today I will tell
+							our developers to make the same website
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+					<div class="swiper-slide box">
+						<img src="img2/tokaev.jpg" alt="" />
+						<h3>Kassym-Jomart Tokayev</h3>
+						<p>
+							As the President of Kazakhstan, I envy you, today I will tell our
+							developers to make the same website
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+					<div class="swiper-slide box">
+						<img src="img2/baidon.jpg" alt="" />
+						<h3>Joe Biden</h3>
+						<p>
+							As the President of USA, I really envy you, today I will tell our
+							developers to make the same website
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+					<div class="swiper-slide box">
+						<img src="img2/sunak.jpg" alt="" />
+						<h3>Rishi Sunak</h3>
+						<p>
+							As the British Prime Minister , I envy you, today I will tell our
+							developers to make the same website
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+					<div class="swiper-slide box">
+						<img src="img2/Nahyan.jpg" alt="" />
+						<h3>Mohammed bin Zayed</h3>
+						<p>
+							As the President of the UAE, I envy you, today I will tell our
+							developers to make the same website
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+					<div class="swiper-slide box">
+						<img src="img2/гяи.jpg" alt="" />
+						<h3>Shavkat Mirziyoyev</h3>
+						<p>
+							As the President of Uzbekistan, I envy you, today I will tell our
+							developers to make the same website
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="blogs" class="blogs">
+			<h2 class="heading"><span>our blogs</span></h2>
+
+			<div class="swiper blogs-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide box">
+						<div class="image">
+							<img src="img2/why.png" alt="" />
+						</div>
+						<div class="content">
+							<h3>Why Choose us?</h3>
+							<p>We do not buy from the open market & traders.</p>
+							<a href="" class="btn">read more</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="image">
+							<img src="img2/nut-single-shop.png" alt="" />
+						</div>
+						<div class="content">
+							<h3>What we Grow</h3>
+							<p>Better Agriculture for Better Future</p>
+							<a href="" class="btn">read more</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="image">
+							<img src="img2/traktor.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Why Choose us?</h3>
+							<p>Modern Agriculture Equipment</p>
+							<a href="" class="btn">read more</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="image">
+							<img src="img2/Photo (1).jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Eco Friendly</h3>
+							<p>Econis is a Friendly Organic Store</p>
+							<a href="" class="btn">read more</a>
+						</div>
+					</div>
+
+					<div class="swiper-slide box">
+						<div class="image">
+							<img src="img2/haya.png" alt="" />
+						</div>
+						<div class="content">
+							<h3>The Benefits of Vitamin D & How to Get It</h3>
+							<p></p>
+							<a href="" class="btn">read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer">
+			<div class="box-container">
+				<div class="box">
+					<h3>our locations</h3>
+					<a href="#"> <i class="fas fa-map-marker-alt"></i>Bishkek </a>
+					<a href="#"> <i class="fas fa-map-marker-alt"></i>Chui </a>
+					<a href="#"> <i class="fas fa-map-marker-alt"></i> Talas </a>
+					<a href="#"> <i class="fas fa-map-marker-alt"></i> Issyk-Kul </a>
+					<a href="#"> <i class="fas fa-map-marker-alt"></i> Naryn </a>
+					<a href="#"> <i class="fas fa-map-marker-alt"></i> Batken </a>
+					<a href="#"> <i class="fas fa-map-marker-alt"></i> Osh </a>
+					<a href="#"> <i class="fas fa-map-marker-alt"></i> Jalal-Abad </a>
+				</div>
+
+				<div class="box">
+					<h3>quick links</h3>
+					<a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+					<a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+					<a href="#aboutUs"> <i class="fas fa-arrow-right"></i> about us </a>
+					<a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+					<a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs </a>
+				</div>
+
+				<div class="box">
+					<h3>extra links</h3>
+					<a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+					<a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+					<a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+				</div>
+
+				<div class="box">
+					<h3>contact info</h3>
+					<a href="#"> <i class="fas fa-phone"></i> +996995560860 </a>
+					<a href="#"> <i class="fas fa-phone"></i> +996999307101 </a>
+					<a href="#">
+						<i class="fas fa-envelope"></i> roza.karimova@alatoo.edu.kg</a
+					>
+					<img src="img/worldmap.png" class="map" alt="" />
+				</div>
+			</div>
+
+			<div class="share">
+				<a href="https://github.com/Karimova1410" class="fab fa-github"></a>
+				<a
+					href="https://www.instagram.com/r_karimovva"
+					class="fab fa-instagram"
+				></a>
+				<a
+					href="https://api.whatsapp.com/send?phone=996995560860"
+					class="fab fa-whatsapp"
+				></a>
+				<a href="https://t.me/r_karimovva" class="fab fa-telegram"></a>
+			</div>
+
+			<div class="credit">
+				created by <span>Karimova Roza</span> | all rights reserved!
+			</div>
+		</section>
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
