@@ -853,6 +853,11 @@ h2 {
 .shoppingCart h3 {
 	color: white;
 }
+.bodyy{
+  background-color: white;
+  border-radius: 2rem;
+}
+
 .shoppingCart p {
 	font-size: 2rem !important;
 }
@@ -875,7 +880,7 @@ h2 {
 	background-image: url(../img2/Background.jpg);
 }
 .card1 {
-	background-color: inherit;
+	background-color: white !important;
 	border: none;
 }
 .card {
@@ -883,6 +888,7 @@ h2 {
   background-color: inherit !important;
   margin: 0 auto;
 }
+
 
 .card,
 .img-fluid {
